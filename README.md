@@ -34,3 +34,9 @@ Using ssh-copy-id
 ssh-copy-id -i ~/.ssh/id_something \
 -o "PubkeyAuthenication no" root@{my-ip-address}
 ```
+...and enter the password
+
+ssh'ing into the server
+```
+ssh -o "IdentitiesOnly yes" -i ~/.ssh/id_something root@{my-ip-address}
+```
