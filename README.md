@@ -56,5 +56,7 @@ add group `sudo` to user admin
 ```
 usermod -aG sudo admin
 ```
-user admin can now use sudo
+user admin can now use sudo. Use ssh-copy-id instructions to add ssh key, replacing `root` with `admin` 
+
+
 
