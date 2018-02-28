@@ -16,4 +16,21 @@ add to authorised_keys
 ```
 nano authorized_keys
 ```
-...and paste in public key   
+...and paste in public key 
+
+## ssh-copy-id
+Install on a MAC
+```
+brew install ssh-copy-id
+```
+
+test with
+```
+which ssh-copy-id
+``` 
+
+Using ssh-copy-id
+```
+ssh-copy-id -i ~/.ssh/id_something \
+-o "PubkeyAuthenication no" root@{my-ip-address}
+```
