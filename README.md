@@ -58,5 +58,8 @@ usermod -aG sudo admin
 ```
 user admin can now use sudo. Use ssh-copy-id instructions to add ssh key, replacing `root` with `admin` 
 
-
+To run the docker commands 
+```
+sudo usermod -aG docker deploy
+```
 
