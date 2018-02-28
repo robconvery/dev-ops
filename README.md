@@ -40,3 +40,21 @@ ssh'ing into the server
 ```
 ssh -o "IdentitiesOnly yes" -i ~/.ssh/id_something root@{my-ip-address}
 ```
+
+### create `admin` user
+```
+adduser admin
+```
+paste in password
+
+see what groups admin is in
+```
+groups admin
+```
+
+add group `sudo` to user admin
+```
+usermod -aG sudo admin
+```
+user admin can now use sudo
+
