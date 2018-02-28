@@ -3,7 +3,7 @@ devOps notes
 
 ## Create ssh key
 ```
-ssh-keygen -t rsa -b 4096 -C "robconvery@me.com" -f id_something
+ssh-keygen -t rsa -b 4096 -C "hello-world@example.com" -f id_something
 ```
 ## Add key to authorised_keys
 
